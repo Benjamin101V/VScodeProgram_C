@@ -1,9 +1,11 @@
+
 {
     "configurations": [
         {
             "name": "windows-gcc-x64",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "E:/Program Files/Microsoft VS Code/resources/curl-8.10.1_2-win64-mingw/include"
             ],
             "compilerPath": "C:/Program Files/mingw64/bin/gcc.exe",
             "cStandard": "${default}",
@@ -16,3 +18,5 @@
     ],
     "version": 4
 }
+
+
