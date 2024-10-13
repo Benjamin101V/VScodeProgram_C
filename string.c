@@ -1,11 +1,9 @@
 #include<stdio.h>
 #include<string.h>
 
-/*
-C 中有大量操作字符串的函数
+/*C 中有大量操作字符串的函数
 详情可参考 https://www.runoob.com/cprogramming/c-standard-library-string-h.html
-下面所列举的字符串操作函数相对常见
-*/
+下面所列举的字符串操作函数相对常见*/
 
 int main()
 {
