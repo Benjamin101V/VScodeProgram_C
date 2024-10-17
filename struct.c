@@ -60,6 +60,7 @@ int main()
     strcpy( book4.subject, "Security");
     book3.bookID = 19700104;
     bookInfo_ptr(&book4,4);   //调用函数，参数为结构体指针（地址）
+    /*相同情况下，结构体在传参时使用结构体指针比直接传参效率高。如果传递一个结构体对象的时候，结构体过大，参数压栈的系统开销比较大，所以会导致性能的下降。*/
 
     int ret1=sizeof(book1);
     int ret2=sizeof(book2);     //计算结构体大小
