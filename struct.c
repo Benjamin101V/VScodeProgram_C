@@ -143,8 +143,8 @@ int main()
     printf( "Age.age : %d\n", Age.age );
     Age.age = 7;
     printf( "Age.age : %d\n", Age.age );
-    Age.age = 8; // 二进制表示为 1000 有四位，超出，执行结果为0
-    printf( "Age.age : %d\n", Age.age );
+    //Age.age = 8; // 二进制表示为 1000 有四位，超出，执行结果为0
+    //printf( "Age.age : %d\n", Age.age );
 
     struct example1 eg1;
     printf("Size of example1: %lu bytes\n", sizeof(eg1));
