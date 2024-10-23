@@ -22,5 +22,9 @@ int main()
     fclose(fp1);
     /*fscanf() 方法只读取了 This，因为它在后边遇到了一个空格。其次，调用 fgets() 读取剩余的部分，直到行尾。最后，调用 fgets() 完整地读取第二行*/
 
+    /*size_t fread(void *ptr, size_t size_of_elements, size_t number_of_elements, FILE *a_file);
+              
+    size_t fwrite(const void *ptr, size_t size_of_elements, size_t number_of_elements, FILE *a_file);*/
+    //这两个函数用于二进制输入和输出
     return 0;
 }
