@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+/*输入某年某月某日，判断这一天是这一年的第几天？*/
 const int daysInMonth[]={31,28,31,30,31,30,31,31,30,31,30,31};
 
 int main()
