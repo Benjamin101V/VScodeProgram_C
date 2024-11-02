@@ -1,3 +1,2 @@
 *.exe
-test_dev.c
-test.c
+TEST/*
