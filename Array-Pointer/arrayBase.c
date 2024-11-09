@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*数组与指针专题学习*/
+/*数组初阶专题学习*/
 #define LENGTH(array) sizeof(array)/sizeof(array[0])    //宏定义计算数组长度
 
 void printArray(int arr[],int size) //数组（指针）作为参数
@@ -28,6 +28,9 @@ int main()
     printf("\n");
 
     printArray(arr1,len);
+    int *ptr=arr1; 
+    printArray(ptr,length);
+    /*上述代码说明数组名可直接作为指针使用*/
 
     return 0;
 }
