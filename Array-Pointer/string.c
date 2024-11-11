@@ -15,9 +15,9 @@ int main()
 	char string3[8];
 				//string1=str
 	strcpy(string3,string1);	//复制粘贴 string1->string3
-	printf("strcpy()->%s\n",string3);
+	printf("strcpy(string3,'VIRTUAL')->%s\n",string3);
 	strcat(string3,string2);	//连接 string3-string2
-	printf("strcat()->%s\n",string3);
+	printf("strcat('VIRTUAL','GUARD')->%s\n",string3);
 	int len=strlen(string3);	//计算连接后string3的总长度
 	printf("length of string3:%d\n",len);
 	
@@ -38,7 +38,7 @@ int main()
 	//scanf("%c",input2);
 	char *ptr1=strchr(string4,input2);//返回字符串string4中第一次出现字符input2的地址
 	if(ptr1!=NULL){
-		printf("First occurrence of '%c' found at position: %p\n",input2,ptr1-str);
+		printf("First occurrence of '%c' found at position: %#p\n",input2,ptr1-str);
 	}
 	else{
 		printf("Character not found\n");
@@ -48,7 +48,7 @@ int main()
 	char in[]="GUARD";
 	char *ptr2=strstr(string5,in);
 	if(ptr2!=NULL){
-		printf("First occurrence of '%s' found at position: %p\n",in,ptr2-str);
+		printf("First occurrence of '%s' found at position: %#p\n",in,ptr2-str);
 	}
 	else{
 		printf("String not found\n");
