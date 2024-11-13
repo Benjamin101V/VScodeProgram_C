@@ -29,7 +29,7 @@ int counter(char *str)
     int count=0;
     while(*str!='\0'){
         count++;
-        str++;         //函数指针实现的字符串计数器
+        str++;         //字符串计数器函数
     }
     return count;
 }
